@@ -1,0 +1,1 @@
+        CREATE TABLE `empleados`( `id` INT(11) NOT NULL AUTO_INCREMENT,`Nombre` VARCHAR(255),`ApellidoP` VARCHAR(255),`ApellidoM` VARCHAR(255),`Correo` VARCHAR(255),`Foto` VARCHAR(255), `status` ENUM('0','1'), PRIMARY KEY (`id`) );    
